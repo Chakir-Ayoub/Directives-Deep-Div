@@ -5,11 +5,13 @@ import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
+import { BetterHightlightDirective } from './better-hightlight/better-hightlight.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BasicHightLightDirective
+    BasicHightLightDirective,
+    BetterHightlightDirective
   ],
   imports: [
     BrowserModule,
